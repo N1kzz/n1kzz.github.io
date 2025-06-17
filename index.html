@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Avistamientos OVNI</title>
+
+  <!-- Fuente Google Sans Text -->
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Text:wght@400;700&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Google Sans Text', sans-serif;
+      background: url('Resources/Fondo.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #ffffff;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    header, footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      margin: 2rem auto;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 800px;
+      padding: 2rem;
+    }
+
+    section {
+      width: 100%;
+    }
+
+    .explicacion {
+      line-height: 1.6;
+      font-size: 1.1rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+
+    .explicacion img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem auto;
+    }
+
+    .grafico img {
+      width: 100%;
+      height: auto;
+      border: 2px solid #00ffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    }
+
+    footer {
+      font-size: 0.9rem;
+      color: #ccc;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .container {
+        padding: 1rem;
+        margin: 1rem auto;
+      }
+
+      .explicacion {
+        font-size: 1rem;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Avistamientos OVNI en Estados Unidos</h1>
+    <p>¡Exploremos juntos estos fenómenos tan particulares!</p>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- Sección de bienvenida -->
+      <section class="explicacion">
+        <h2>¡Bienvenido a este sitio web!</h2>
+        <p>
+          Vamos a explorar sobre los avistamientos de OVNIs ocurridos a lo largo del tiempo, especificamente en distintas regiones de los Estados Unidos.
+          Utilizando herramientas como BigQuery, DataPrep y GCloud, vamos a visualizar los resultados obtenidos en una amplia base de datos que posee avistamientos desde 1945 hasta hoy.
+        </p>
+        <p>¡Vamos allá!</p>
+      </section>
+
+      <!-- Gráfico 1 -->
+      <section class="explicacion">
+        <h2>Gráfico 1: Avistamientos de OVNIs según forma</h2>
+        <img src="Resources/Grafico 1.png" alt="Grafico 1">
+        <p>
+          Este gráfico muestra la distribución de los avistamientos de OVNIs según su forma.
+          Las figuras más reportadas incluyen luces, esferas y discos, destacándose como las más comunes entre los registros.
+        </p>
+      </section>
+
+      <!-- Gráfico 2 -->
+      <section class="explicacion">
+        <h2>Gráfico 2: Avistamientos de OVNIs por año</h2>
+        <img src="Resources/Grafico 2.png" alt="Grafico 2">
+        <p>
+          Este gráfico presenta la evolución anual de los avistamientos de OVNIs.
+          Se observa un notable aumento en los reportes durante los años 2011, 2012 y 2013, concentrando la mayor cantidad de registros en ese período.
+        </p>
+      </section>
+
+      <!-- Gráfico 3 -->
+      <section class="explicacion">
+        <h2>Gráfico 3: Avistamientos de OVNIs por estado</h2>
+        <img src="Resources/Grafico 3.png" alt="Grafico 3">
+        <p>
+          Este gráfico refleja la distribución de avistamientos de OVNIs por estado. 
+          California, Washington y Florida destacan como las regiones con la mayor cantidad de reportes registrados.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 - Investigación realizada por Nicolás Andrade y Eduardo Orellana</p>
+  </footer>
+</body>
+</html>

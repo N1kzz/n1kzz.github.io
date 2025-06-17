@@ -39,6 +39,7 @@ Este gráfico presenta la evolución anual de los avistamientos de OVNIs. Se obs
 ![Gráfico 3](Resources/Grafico 3.png)
 
 Este gráfico refleja la distribución de avistamientos de OVNIs por estado. California, Washington y Florida destacan como las regiones con la mayor cantidad de reportes registrados.
+
 ---
 
 ## Proyecto realizado por
